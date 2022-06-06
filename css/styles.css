@@ -1,7 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
+
 body {
   width: 0;
   height: 0;
-  background: greenyellow;
+  background-image: url(/gradienta-1TCjZz-dnJc-unsplash.jpg);
+  background-size: 100%;
+  font-family: "Inter", sans-serif;
 }
 
 .logo {
@@ -13,23 +17,69 @@ body {
   justify-content: space-between;
 }
 
-input {
+.input-text {
   margin-inline: 150px;
+  padding: 15px;
+  width: 250px;
+  font-size: 18px;
+}
+
+p {
+  position: absolute;
+  margin-top: 550px;
+  padding-left: 120px;
+  color: white;
+}
+
+.input-textarea {
+  font-size: 30px;
+  font-weight: bold;
+  background-image: url(/hd-wallpaper-459299_640.jpg);
+  color: black;
 }
 
 .btn1,
 .btn2 {
-  margin-top: 120%;
+  margin-top: 100%;
   display: inline-block;
   padding: 10px;
   border-radius: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  opacity: 60%;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background-color: red;
+  transition: 400ms;
+}
+
+.btn2:hover {
+  background-color: red;
+  transition: 400ms;
 }
 
 .btn1 {
   margin-left: 20%;
+  width: 150px;
+  height: auto;
+  background: blue;
+  border: 3px solid transparent;
+  box-shadow: 5px 5px 15px 5px black;
+}
+
+.btn2 {
+  width: 150px;
+  height: auto;
+  margin-left: 20px;
+  background: blue;
+  border: 3px solid transparent;
+  box-shadow: 5px 5px 15px 5px black;
 }
 
 footer {
   position: absolute;
-  text-align: center;
+  color: white;
 }
