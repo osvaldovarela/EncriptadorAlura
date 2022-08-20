@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
 
 body {
-  width: 0;
-  height: 0;
-  background-image: url(img/gradienta.jpg);
-  background-size: 100%;
+  margin: 0;
+  height: auto;
+  background: url(img/gradienta.jpg);
+  background-size: cover no-repeat;
   font-family: "Inter", sans-serif;
 }
 
